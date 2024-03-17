@@ -225,9 +225,25 @@ ul {
 
 .container-team{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .team-list{
   margin-right: 30px;
+}
+
+.container-team figure{
+  margin: 0;
+}
+
+.list-item h3{
+  line-height: 1.14;
+}
+
+.list-item p{
+  line-height: 1.71;
+}
+
+a {
+  text-decoration: none;
 }

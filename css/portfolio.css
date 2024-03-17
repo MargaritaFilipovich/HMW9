@@ -116,3 +116,36 @@
   .sub-hh {
     padding: 94px 0;
   }
+
+  .navigation-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  #header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .navigation-item:nth-child(3) {
+    margin-right: 350px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sub{
+    display: flex;
+    justify-content: center;
+    padding-right: 8px;
+  }
+
+  
