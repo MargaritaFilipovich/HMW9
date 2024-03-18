@@ -228,9 +228,6 @@ ul {
   justify-content: space-between;
 }
 
-.team-list{
-  margin-right: 30px;
-}
 
 .container-team figure{
   margin: 0;
@@ -246,4 +243,8 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.team-list{
+  text-align: center;
 }
