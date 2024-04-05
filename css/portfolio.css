@@ -175,4 +175,20 @@
     margin-left: 24px;
   }
 
+  *{
+    box-sizing: border-box;
+  }
+
+  .container-sub-hero-article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .sub-hero-img{
+    flex-basis: calc((100%-60px)/3);
+  }
+
   
