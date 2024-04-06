@@ -118,7 +118,7 @@
   background-color: var(--blue-background-color);
 }
 
-.busines-button{
+.busines-button {
   display: flex;
   margin-left: 500px;
 }
@@ -218,26 +218,26 @@ ul {
   width: 270px;
 }
 
-.work-list{
+.work-list {
   display: flex;
   justify-content: space-between;
 }
 
-.container-team{
+.container-team {
   display: flex;
   justify-content: space-between;
 }
 
 
-.container-team figure{
+.container-team figure {
   margin: 0;
 }
 
-.list-item h3{
+.list-item h3 {
   line-height: 1.14;
 }
 
-.list-item p{
+.list-item p {
   line-height: 1.71;
 }
 
@@ -245,6 +245,6 @@ a {
   text-decoration: none;
 }
 
-.team-list{
+.team-list {
   text-align: center;
 }
