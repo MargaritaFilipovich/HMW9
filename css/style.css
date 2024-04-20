@@ -254,17 +254,41 @@ a {
 }
 
 .list-item:nth-child(1)::before{
-  content: url("/img/Group 1.png");
+  content: url("../img/antenna\ 1.png");
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-background-color);
+  padding: 25px;
+  margin-bottom: 30px;
 }
 
 .list-item:nth-child(2)::before{
-  content: url("/img/Group\ 2.png");
+  content: url("../img/clock\ 1.png");
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-background-color);
+  padding: 25px;
+  margin-bottom: 30px;
 }
 
 .list-item:nth-child(3)::before{
-  content: url("/img/Group\ 3.png");
+  content: url("../img/diagram\ 1.png");
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-background-color);
+  padding: 25px;
+  margin-bottom: 30px;
 }
 
 .list-item:nth-child(4)::before{
-  content: url("/img/Group\ 4.png");
+  content: url("../img/astronaut\ 1\ \(2\).png");
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-background-color);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.list-item{
+
 }
