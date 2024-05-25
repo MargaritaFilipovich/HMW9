@@ -103,9 +103,11 @@
 
 .hh {
   color: var(--white-color);
-  background-color: var(--dark-background-color);
-  background-image: url("/img/img\ \(1\).png");
+    background-image: linear-gradient( to right,rgb(47, 48, 58, 0.2) , rgb(130, 132, 160, 0.2)) , url(../img/img\(17\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .busines-button {
   border-radius: 4px;
@@ -252,7 +254,7 @@ a {
 }
 
 .list-item:nth-child(1)::before{
-  content: url("../img/antenna\ 1.png");
+  content: url("../img/antenna\(1\).png");
   display: flex;
   justify-content: center;
   background-color: var(--gray-background-color);
@@ -261,7 +263,7 @@ a {
 }
 
 .list-item:nth-child(2)::before{
-  content: url("../img/clock\ 1.png");
+  content: url("../img/clock\(1\).png");
   display: flex;
   justify-content: center;
   background-color: var(--gray-background-color);
@@ -270,7 +272,7 @@ a {
 }
 
 .list-item:nth-child(3)::before{
-  content: url("../img/diagram\ 1.png");
+  content: url("../img/diagram\(1\).png");
   display: flex;
   justify-content: center;
   background-color: var(--gray-background-color);
@@ -279,7 +281,7 @@ a {
 }
 
 .list-item:nth-child(4)::before{
-  content: url("../img/astronaut\ 1\ \(2\).png");
+  content: url("../img/astronaut\(1\).png");
   display: flex;
   justify-content: center;
   background-color: var(--gray-background-color);
