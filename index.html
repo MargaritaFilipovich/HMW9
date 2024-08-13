@@ -60,18 +60,57 @@
                 </div>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, itaque illum suscipit
-                            vitae quod aliquam minima impedit officiis ipsa tempore ut sequi maiores fuga illo
-                            consequuntur voluptatibus deserunt eveniet quas nostrum iure molestiae asperiores voluptatem
-                            natus. Dicta ut atque esse beatae. Similique unde adipisci dolorum asperiores laboriosam id
-                            mollitia impedit?
-                        </p>
-                        <button data-modal-close>Close</button>
+                        <button class="btn-cls" data-modal-close>&times;</button>
+                        <h2 class="titlee1">Залиште свої дані, ми вам передзвонимо</h2>
+                        <form class="form-modal">
+                            <label for="first-name">
+                                <p class="text-form">Ім'я</p>
+                                <div class="div-input">
+                                 <input type="text" id="first-name" name="name" class="input-modal">
+                                <svg width="18px" height="18px" class="svg-modal">
+                                    <use href="./img/symbol-defs2.svg#icon-vector1"></use>
+                                </svg>
+                                </div>
+                            </label>
+                            <label for="number-phone">
+                                 <p class="text-form">Телефон</p>
+                                 <div class="div-input">
+                                <input type="tel" id="number-phone" name="number-phone" class="input-modal">
+                                <svg width="18px" height="18px" class="svg-modal">
+                                    <use href="./img/symbol-defs2.svg#icon-vector2"></use>
+                                </svg>
+                            </div>
+                            </label>
+                           
+ 
+
+                            <label for="e-mail">
+                                <p class="text-form">Пошта</p>
+                                                           <div class="div-input">
+                                <input type="email" id="e-mail" name="email" class="input-modal">
+                                <svg width="18px" height="18px" class="svg-modal">
+                                    <use href="./img/symbol-defs2.svg#icon-vector3"></use>
+                                </svg>
+                            </div>
+                            </label>
+ 
+
+                            <label for="comment" class="comment-form">
+                                <p class="text-form">Коментар</p>
+
+                            </label>
+                            <textarea name="comment" placeholder="Введіть текст" class="textarea-modal"></textarea>
+
+                            <div class="checkbox-div">
+                                <input type="checkbox">
+                                <label for="agree" class="agree">Погоджуюся з розсилкою та приймаю
+                                    <a href="#" class="conditions">Умови договору</a>
+                                </label>
+                            </div>
+                            <button type="submit" class="button-modal">Відправити</button>
+                        </form>
                     </div>
                 </div>
-
-
             </div>
         </section>
         <section class="info">
@@ -330,6 +369,26 @@
                             <use href="./img/symbol-defs.svg#icon-linkedin1" class="footer-use"></use>
                         </svg>
                     </a>
+                </article>
+            </div>
+            <div class="subscribe">
+                <h3 class="h3-subscribe">Підпишіться на розсилку</h3>
+                <article class="subscribe-article">
+                    <form class="form-subscribe">
+                        <lable class="subscribe-lable">
+                            <input class="input-subscribe" type="email" name="email" placeholder="E-mail">
+                        </lable>
+                    </form>
+                    <div class="div-sbs">
+                    <button type="button" class="subscribe-btn">
+                        Підписатися
+                        <svg class="svg-btn-subscribe" width="24px" height="24px">
+                        <use href="./img/symbol-defs2.svg#icon-icon-send"></use>
+                    </svg>
+                    </div>
+                    </button>
+                    
+   
                 </article>
             </div>
         </div>

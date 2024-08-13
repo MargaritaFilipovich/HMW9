@@ -262,3 +262,56 @@ color: var(--blue-color);
 .footer-icons {
   margin-left: 70px;
 }
+
+.form-subscribe {
+  margin-left: 93px;
+}
+
+.subscribe-article {
+  display: flex;
+}
+
+.form-subscribe input {
+
+  background-color: var(--dark-background-color);
+  border-radius: 5px;
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  border-radius: 10px;
+
+}
+
+.div-sbs {
+  padding-left: 12px;
+}
+
+.svg-btn-subscribe {
+  fill: var(--white-color);
+  padding-left: 10px;
+}
+
+.input-subscribe {
+  width: 358px;
+  height: 50px;
+}
+
+.h3-subscribe {
+  color: var(--white-color);
+  margin-left: 93px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+}
