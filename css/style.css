@@ -91,15 +91,19 @@
 .portfolio,
 .contact {
   color: var(--black-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mailto {
   color: var(--gray-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .tel {
   color: var(--gray-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hh {
@@ -368,6 +372,8 @@ figure {
 .client-link {
   border: 1px solid #757575;
   border-radius: 5px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link {
@@ -474,6 +480,7 @@ figure {
 .footer-list {
   padding: 12px;
   height: 20px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list:hover {

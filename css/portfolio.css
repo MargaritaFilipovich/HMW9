@@ -80,6 +80,7 @@ body {
 
 .studi {
   color: var(--black-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .port {
@@ -88,6 +89,7 @@ body {
 
 .contact {
   color: var(--black-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .all {
@@ -107,6 +109,7 @@ body {
   height: 35px;
   border-radius: 4px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header {
@@ -193,6 +196,8 @@ ul {
 
 .sub-hero-article {
   flex-basis: calc((100% - 60px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
 }
 
 .sub-hero-article:hover{
@@ -238,6 +243,7 @@ color: var(--blue-color);
   background-color: #41414f;
   border-radius: 50px;
   margin-left: 15px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list {
@@ -410,6 +416,11 @@ color: var(--blue-color);
   line-height: 28px;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.sub-hero:hover{
+  background-color: var(--blue-background-color);
+  color: var(--white-color);
 }
 
 
