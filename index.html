@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -54,9 +56,9 @@
     <main>
         <section class="hh" id="hh">
             <div class="container">
-                <h1 class="titlee">Ефективні рішення для вашого бізнесу</h1>
+                <h1 class="titlee animate__animated animate__zoomIn">Ефективні рішення для вашого бізнесу</h1>
                 <div class="container-button">
-                    <button type="button" class="busines-button" data-modal-open>Замовити послугу</button>
+                    <button type="button" class="busines-button animate__animated animate__pulse animate__delay-2s animate__infinite " data-modal-open>Замовити послугу</button>
                 </div>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
@@ -130,13 +132,13 @@
                             у себе.
                         </p>
                     </li>
-                    <li class="list-item">
+                    <li class="list-item" >
                         <h3 class="list-title">Планування</h3>
                         <p class="idea">
                             Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
-                    <li class="list-item">
+                    <li class="list-item" >
                         <h3 class="list-title">Сучасні технології</h3>
                         <p class="idea">
                             Значимість цих проблем настільки очевидна,що реалізація планових
@@ -150,15 +152,15 @@
             <div class="container">
                 <h2 class="title">Чим ми займаємося</h2>
                 <article class="work-list">
-                    <div class="work-div">
+                    <div class="work-div" data-aos="zoom-in-right">
                         <img class="work-img" src="img/img(14).png" width="300" />
                         <p>Десктопні додатки</p>
                     </div>
-                    <div class="work-div">
+                    <div class="work-div"  data-aos="zoom-out-up">
                         <img class="work-img" src="img/img(16).png" width="300" />
                         <p>Мобільні додатки</p>
                     </div>
-                    <div class="work-div">
+                    <div class="work-div" data-aos="zoom-in-left">
                         <img class="work-img" src="img/img(15).png" width="300" />
                         <p>Дизайнерські рішення</p>
                     </div>
@@ -169,9 +171,11 @@
             <div class="container">
                 <h2 class="title">Наша команда</h2>
                 <div class="container-team">
-                    <figure>
+                    <figure class="team-list" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <img class="photo" src="img/img(13).jpg" width="250" alt="Ігор Дем'яненко" />
-                        <figcaption class="team-list">
+                        <figcaption>
                             <h4 class="team-name">Ігор Дем'яненко</h4>
                             <p class="work-for">Product Designer</p>
                         </figcaption>
@@ -198,9 +202,10 @@
                             </a>
                         </div>
                     </figure>
-                    <figure>
+                    <figure class="team-list" data-aos="fade-up"
+                    data-aos-duration="1000">
                         <img class="photo" src="img/img(10).jpg" width="250" alt="Ольга Рєпіна" />
-                        <figcaption class="team-list">
+                        <figcaption>
                             <h4 class="team-name">Ольга Рєпіна</h4>
                             <p class="work-for">Frontend Developer</p>
                         </figcaption>
@@ -227,7 +232,8 @@
                             </a>
                         </div>
                     </figure>
-                    <figure class="team-list">
+                    <figure class="team-list" data-aos="fade-up"
+                    data-aos-duration="1000">
                         <img class="photo" src="img/img(11).jpg" width="250" alt="Микола Тарасов" />
                         <figcaption>
                             <h4 class="team-name">Микола Тарасов</h4>
@@ -256,7 +262,9 @@
                             </a>
                         </div>
                     </figure>
-                    <figure class="team-list">
+                    <figure class="team-list" data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <img class="photo" src="img/img(12).jpg" width="250" alt="Михайло Єрмаков" />
                         <figcaption>
                             <h4 class="team-name">Михайло Єрмаков</h4>
@@ -380,7 +388,7 @@
                         </lable>
                     </form>
                     <div class="div-sbs">
-                    <button type="button" class="subscribe-btn">
+                    <button type="button" class="subscribe-btn animate__animated animate__heartBeat  animate__infinite animate__slow">
                         Підписатися
                         <svg class="svg-btn-subscribe" width="24px" height="24px">
                         <use href="./img/symbol-defs2.svg#icon-icon-send"></use>
@@ -395,6 +403,10 @@
 
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
