@@ -1,0 +1,141 @@
+.sub-hero-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 1.00px;
+    color: var(--black-color);
+  
+  }
+  
+  .sub-hero-position {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 187.5%;
+    letter-spacing: 0.48px;
+    color: var(--gray-color);
+  }
+  
+  
+  .sub-hero {
+    background-color: var(--gray-background-color);
+    color: var(--black-color);
+    width: 125px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  
+  
+  
+  
+  .sub-hh {
+    padding: 94px 0;
+  }
+  
+  .all {
+    color: var(--white-color);
+    width: 73px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: var(--blue-background-color);
+    letter-spacing: 0.48px;
+    border: none;
+  }
+
+  .sub {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .all {
+    margin-right: 8px;
+  }
+  
+  .sub-hero:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  .container-sub-hero-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .sub-hero-article {
+    width: 370px;
+    margin-bottom: 30px;
+  }
+  
+  .sub-hero-img {
+    margin: 0;
+    border: 1px solid whitesmoke;
+  }
+  
+  .sub-hero-text {
+    margin-left: 24px;
+  }
+
+  .container-sub-hero-title {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sub-hero-article {
+    flex-basis: calc((100% - 60px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  
+  }
+  
+  .sub-hero-article:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+
+  .sub-hero-div1{
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .sub-hero-div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #36a1f2f1;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .sub-hero-article:hover .sub-hero-div{
+    transform: translateY(0);
+  }
+  
+  .sub-hero-div p{
+    color: #fff;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0;
+  }
+  
+  .sub-hero-p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  
+  .sub-hero:hover{
+    background-color: var(--blue-background-color);
+    color: var(--white-color);
+  }
+  

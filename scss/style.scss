@@ -1,0 +1,56 @@
+:root {
+  --blue-color: #2196f3;
+  --black-color: #212121;
+  --gray-color: #757575;
+  --white-color: #ffffff;
+  --gray-background-color: #F5F4FA;
+  --blue-background-color: #2196f3;
+  --dark-background-color: #2f303a;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+figure {
+  background-color: var(--white-color);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+@import 'components/header';
+@import 'components/modal';
+@import 'components/info';
+@import 'components/work';
+@import 'components/team';
+@import 'components/client';
+@import 'components/footer'

@@ -1,0 +1,69 @@
+.list-title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+
+  .info {
+    padding: 94px 0;
+  }
+
+  .info-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    width: 270px;
+  }
+
+
+  .list-item p {
+    line-height: 1.71;
+  }
+
+  .list-title {
+    position: relative;
+  }
+  
+  .list-item:nth-child(1)::before {
+    content: url("../img/antenna\(1\).png");
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-background-color);
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .list-item:nth-child(2)::before {
+    content: url("../img/clock\(1\).png");
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-background-color);
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .list-item:nth-child(3)::before {
+    content: url("../img/diagram\(1\).png");
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-background-color);
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .list-item:nth-child(4)::before {
+    content: url("../img/astronaut\(1\).png");
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-background-color);
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  
+
+  .list-item h3 {
+    line-height: 1.14;
+  }
