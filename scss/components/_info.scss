@@ -12,17 +12,20 @@
   .info-list {
     display: flex;
     justify-content: space-between;
+
+    .list-item {
+      width: 270px;
+    }
+
+    p {
+      line-height: 1.71;
+    }
+
+    h3 {
+      line-height: 1.14;
+    }
   }
   
-  .list-item {
-    width: 270px;
-  }
-
-
-  .list-item p {
-    line-height: 1.71;
-  }
-
   .list-title {
     position: relative;
   }
@@ -31,7 +34,7 @@
     content: url("../img/antenna\(1\).png");
     display: flex;
     justify-content: center;
-    background-color: var(--gray-background-color);
+    background-color: $gray-background-color;
     padding: 25px;
     margin-bottom: 30px;
   }
@@ -40,7 +43,7 @@
     content: url("../img/clock\(1\).png");
     display: flex;
     justify-content: center;
-    background-color: var(--gray-background-color);
+    background-color: $gray-background-color;
     padding: 25px;
     margin-bottom: 30px;
   }
@@ -49,7 +52,7 @@
     content: url("../img/diagram\(1\).png");
     display: flex;
     justify-content: center;
-    background-color: var(--gray-background-color);
+    background-color: $gray-background-color;
     padding: 25px;
     margin-bottom: 30px;
   }
@@ -58,12 +61,8 @@
     content: url("../img/astronaut\(1\).png");
     display: flex;
     justify-content: center;
-    background-color: var(--gray-background-color);
+    background-color: $gray-background-color;
     padding: 25px;
     margin-bottom: 30px;
   }
   
-
-  .list-item h3 {
-    line-height: 1.14;
-  }

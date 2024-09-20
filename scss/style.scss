@@ -1,12 +1,4 @@
-:root {
-  --blue-color: #2196f3;
-  --black-color: #212121;
-  --gray-color: #757575;
-  --white-color: #ffffff;
-  --gray-background-color: #F5F4FA;
-  --blue-background-color: #2196f3;
-  --dark-background-color: #2f303a;
-}
+
 
 .container {
   width: 1200px;
@@ -46,11 +38,11 @@ figure {
 
 
 
-
+@import 'components/variables';
 @import 'components/header';
 @import 'components/modal';
 @import 'components/info';
 @import 'components/work';
 @import 'components/team';
 @import 'components/client';
-@import 'components/footer'
+@import 'components/footer';

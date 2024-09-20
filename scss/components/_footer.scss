@@ -1,59 +1,49 @@
 .footer {
     padding: 60px 0;
+    background-color: $dark-background-color;
+
+    .container {
+    display: flex;
   }
-
-
-  .footer {
-    background-color: var(--dark-background-color);
   }
 
   .footer-title {
-    color: var(--white-color);
+    color: $white-color;
     text-transform: uppercase;
     font-size: 14px;
-  }
-  
-  .footer-title {
-    margin-left: 20px;
-  }
-  
-  .footer .container {
-    display: flex;
+     margin-left: 20px;
   }
   
   .footer-list {
     background-color: #41414f;
     border-radius: 50px;
     margin-left: 15px;
-  }
-  
-  .footer-list {
-    padding: 12px;
+     padding: 12px;
     height: 20px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .footer-list:hover {
-    background-color: var(--blue-color);
+
+    &:hover {
+    background-color: $blue-color;
     border-radius: 50px;
+  }
   }
   
   .footer-svg {
-    fill: var(--white-color);
+    fill: $white-color;
   }
   
-  .article-icons {
-    display: flex;
-    justify-content: space-around;
-  }
   
   .footer-icons {
     margin-left: 70px;
+
+    .article-icons {
+      display: flex;
+      justify-content: space-around;
+    }
   }
 
-
   .titlee1 {
-    color: var(--black-color);
+    color: $black-color;
     font-family: Roboto;
     font-size: 23px;
     font-weight: 700;
@@ -65,41 +55,37 @@
   
   }
   
-  
-  .form-subscribe {
-    margin-left: 93px;
-  }
-  
   .subscribe-article {
     display: flex;
+
+    .form-subscribe {
+    margin-left: 93px;
+
+    input {
+      background-color: $dark-background-color;
+      border-radius: 5px;
+    }
+  }
   }
   
-  .form-subscribe input {
-  
-    background-color: var(--dark-background-color);
-    border-radius: 5px;
-  }
-  
-  .subscribe-btn {
+  .div-sbs {
+    padding-left: 12px;
+
+    .subscribe-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 200px;
     height: 50px;
-    color: var(--white-color);
-    background-color: var(--blue-color);
+    color: $white-color;
+    background-color: $blue-color;
     border-radius: 10px;
-  
-  }
 
-  
-  .div-sbs {
-    padding-left: 12px;
-  }
-  
   .svg-btn-subscribe {
-    fill: var(--white-color);
+    fill: $white-color;
     padding-left: 10px;
+  }
+  }
   }
   
   .input-subscribe {
@@ -108,7 +94,7 @@
   }
   
   .h3-subscribe {
-    color: var(--white-color);
+    color: $white-color;
     margin-left: 93px;
     text-transform: uppercase;
     font-family: Roboto;
@@ -117,24 +103,22 @@
     line-height: 16.41px;
     letter-spacing: 0.03em;
     text-align: left;
-  
   }
 
-
   .map {
-    color: var(--white-color);
+    color: $white-color;
   }
   
   .mail {
-    color: var(--gray-color);
+    color: $gray-color;
   }
   
   .phone {
-    color: var(--gray-color);
+    color: $gray-color;
   }
   
   
   .idea {
-    color: var(--gray-color);
+    color: $gray-color;
   }
 

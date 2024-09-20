@@ -3,7 +3,7 @@
     font-weight: 700;
     line-height: 200%;
     letter-spacing: 1.00px;
-    color: var(--black-color);
+    color: $black-color;
   
   }
   
@@ -12,13 +12,13 @@
     font-weight: 400;
     line-height: 187.5%;
     letter-spacing: 0.48px;
-    color: var(--gray-color);
+    color: $gray-color;
   }
   
   
   .sub-hero {
-    background-color: var(--gray-background-color);
-    color: var(--black-color);
+    background-color:$gray-background-color;
+    color: $black-color;
     width: 125px;
     height: 35px;
     border-radius: 4px;
@@ -26,22 +26,19 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  
-  
-  
-  
   .sub-hh {
     padding: 94px 0;
   }
   
   .all {
-    color: var(--white-color);
+    color: $white-color;
     width: 73px;
     height: 35px;
     border-radius: 4px;
-    background-color: var(--blue-background-color);
+    background-color: $blue-background-color;
     letter-spacing: 0.48px;
     border: none;
+    margin-right: 8px;
   }
 
   .sub {
@@ -49,9 +46,6 @@
     justify-content: center;
   }
   
-  .all {
-    margin-right: 8px;
-  }
   
   .sub-hero:not(:last-child) {
     margin-right: 8px;
@@ -66,6 +60,8 @@
   .sub-hero-article {
     width: 370px;
     margin-bottom: 30px;
+    flex-basis: calc((100% - 60px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
   }
   
   .sub-hero-img {
@@ -85,11 +81,6 @@
     list-style: none;
   }
   
-  .sub-hero-article {
-    flex-basis: calc((100% - 60px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
-  
-  }
   
   .sub-hero-article:hover{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -135,7 +126,7 @@
   }
   
   .sub-hero:hover{
-    background-color: var(--blue-background-color);
-    color: var(--white-color);
+    background-color: $blue-background-color;
+    color: $white-color;
   }
   

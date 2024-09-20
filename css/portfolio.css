@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
-:root {
-  --blue-color: #2196f3;
-  --black-color: #212121;
-  --gray-color: #757575;
-  --white-color: #ffffff;
-  --gray-background-color: #F5F4FA;
-  --blue-background-color: #2196f3;
-  --dark-background-color: #2f303a;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -48,8 +38,12 @@ ul {
 .header {
   padding: 25px 0;
 }
-
-.navigation {
+.header #header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navigation {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
@@ -61,32 +55,32 @@ ul {
 }
 
 .mailto {
-  color: var(--blue-color);
+  color: #2196f3;
 }
 
 .map {
-  color: var(--white-color);
+  color: #ffffff;
 }
 
 .mailto {
-  color: var(--gray-color);
+  color: #757575;
 }
 
 .tel {
-  color: var(--gray-color);
+  color: #757575;
 }
 
 .studi {
-  color: var(--black-color);
+  color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .port {
-  color: var(--blue-color);
+  color: #2196f3;
 }
 
 .contact {
-  color: var(--black-color);
+  color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -99,12 +93,6 @@ ul {
   margin-right: 50px;
 }
 
-#header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .navigation-item:nth-child(3) {
   margin-right: 350px;
 }
@@ -115,19 +103,19 @@ ul {
 }
 
 .mailto:hover .navigation-svg {
-  fill: var(--blue-color);
+  fill: #2196f3;
 }
 
 .mailto:hover {
-  color: var(--blue-color);
+  color: #2196f3;
 }
 
 .tel:hover .navigation-svg {
-  fill: var(--blue-color);
+  fill: #2196f3;
 }
 
 .tel:hover {
-  color: var(--blue-color);
+  color: #2196f3;
 }
 
 .menu-3 {
@@ -181,7 +169,7 @@ ul {
 }
 
 .studi:hover, .contact:hover {
-  color: var(--blue-color);
+  color: #2196f3;
 }
 
 .sub-hero-title {
@@ -189,7 +177,7 @@ ul {
   font-weight: 700;
   line-height: 200%;
   letter-spacing: 1px;
-  color: var(--black-color);
+  color: #212121;
 }
 
 .sub-hero-position {
@@ -197,12 +185,12 @@ ul {
   font-weight: 400;
   line-height: 187.5%;
   letter-spacing: 0.48px;
-  color: var(--gray-color);
+  color: #757575;
 }
 
 .sub-hero {
-  background-color: var(--gray-background-color);
-  color: var(--black-color);
+  background-color: #F5F4FA;
+  color: #212121;
   width: 125px;
   height: 35px;
   border-radius: 4px;
@@ -215,22 +203,19 @@ ul {
 }
 
 .all {
-  color: var(--white-color);
+  color: #ffffff;
   width: 73px;
   height: 35px;
   border-radius: 4px;
-  background-color: var(--blue-background-color);
+  background-color: #2196f3;
   letter-spacing: 0.48px;
   border: none;
+  margin-right: 8px;
 }
 
 .sub {
   display: flex;
   justify-content: center;
-}
-
-.all {
-  margin-right: 8px;
 }
 
 .sub-hero:not(:last-child) {
@@ -246,6 +231,8 @@ ul {
 .sub-hero-article {
   width: 370px;
   margin-bottom: 30px;
+  flex-basis: calc((100% - 60px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sub-hero-img {
@@ -263,11 +250,6 @@ ul {
   gap: 30px;
   padding: 0;
   list-style: none;
-}
-
-.sub-hero-article {
-  flex-basis: calc((100% - 60px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sub-hero-article:hover {
@@ -314,8 +296,8 @@ ul {
 }
 
 .sub-hero:hover {
-  background-color: var(--blue-background-color);
-  color: var(--white-color);
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .footer {
@@ -323,11 +305,11 @@ ul {
 }
 
 .footer {
-  background-color: var(--dark-background-color);
+  background-color: #2f303a;
 }
 
 .footer-title {
-  color: var(--white-color);
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -353,12 +335,12 @@ ul {
 }
 
 .footer-list:hover {
-  background-color: var(--blue-color);
+  background-color: #2196f3;
   border-radius: 50px;
 }
 
 .footer-svg {
-  fill: var(--white-color);
+  fill: #ffffff;
 }
 
 .article-icons {
@@ -379,7 +361,7 @@ ul {
 }
 
 .form-subscribe input {
-  background-color: var(--dark-background-color);
+  background-color: #2f303a;
   border-radius: 5px;
 }
 
@@ -389,8 +371,8 @@ ul {
   justify-content: center;
   width: 200px;
   height: 50px;
-  color: var(--white-color);
-  background-color: var(--blue-color);
+  color: #ffffff;
+  background-color: #2196f3;
   border-radius: 10px;
 }
 
@@ -399,7 +381,7 @@ ul {
 }
 
 .svg-btn-subscribe {
-  fill: var(--white-color);
+  fill: #ffffff;
   padding-left: 10px;
 }
 
@@ -409,7 +391,7 @@ ul {
 }
 
 .h3-subscribe {
-  color: var(--white-color);
+  color: #ffffff;
   margin-left: 93px;
   text-transform: uppercase;
   font-family: Roboto;
