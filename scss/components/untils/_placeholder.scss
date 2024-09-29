@@ -1,0 +1,20 @@
+%flex{
+    display: flex;
+      justify-content: center;
+}
+
+%flex2{
+    display: flex;
+    justify-content: space-between;
+}
+
+%list{
+    background-color: $gray-background-color;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+%team{
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}

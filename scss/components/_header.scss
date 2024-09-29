@@ -9,8 +9,7 @@
     letter-spacing: 0.28px;
 
     .navigation-list {
-      display: flex;
-      justify-content: center;
+      @extend %flex;
     }
   }
   
@@ -71,8 +70,7 @@
   }
   
   #header-flex {
-    display: flex;
-    justify-content: space-between;
+    @extend %flex;
     align-items: center;
   
   }

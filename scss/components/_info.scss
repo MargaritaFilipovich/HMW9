@@ -10,8 +10,7 @@
   }
 
   .info-list {
-    display: flex;
-    justify-content: space-between;
+    @extend %flex;
 
     .list-item {
       width: 270px;
@@ -32,37 +31,25 @@
   
   .list-item:nth-child(1)::before {
     content: url("../img/antenna\(1\).png");
-    display: flex;
-    justify-content: center;
-    background-color: $gray-background-color;
-    padding: 25px;
-    margin-bottom: 30px;
+    @extend %flex;
+    @extend %list;
   }
   
   .list-item:nth-child(2)::before {
     content: url("../img/clock\(1\).png");
-    display: flex;
-    justify-content: center;
-    background-color: $gray-background-color;
-    padding: 25px;
-    margin-bottom: 30px;
+    @extend %flex;
+    @extend %list;
   }
   
   .list-item:nth-child(3)::before {
     content: url("../img/diagram\(1\).png");
-    display: flex;
-    justify-content: center;
-    background-color: $gray-background-color;
-    padding: 25px;
-    margin-bottom: 30px;
+    @extend %flex;
+    @extend %list;
   }
   
   .list-item:nth-child(4)::before {
     content: url("../img/astronaut\(1\).png");
-    display: flex;
-    justify-content: center;
-    background-color: $gray-background-color;
-    padding: 25px;
-    margin-bottom: 30px;
+    @extend %flex;
+    @extend %list;
   }
   

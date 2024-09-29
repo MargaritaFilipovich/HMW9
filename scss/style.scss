@@ -38,7 +38,8 @@ figure {
 
 
 
-@import 'components/variables';
+@import 'components/untils/variables';
+@import 'components/untils/placeholder' ;
 @import 'components/header';
 @import 'components/modal';
 @import 'components/info';

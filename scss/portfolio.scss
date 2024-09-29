@@ -42,7 +42,8 @@ ul {
 
 
 
-@import 'components/variables';
+@import 'components/untils/variables' ;
+@import 'components/untils/placeholder';
 @import 'components/portfolio-header';
 @import 'components/sub-hero';
 @import 'components/portfolio-footer';

@@ -42,8 +42,7 @@
   }
 
   .sub {
-    display: flex;
-    justify-content: center;
+    @extend %flex;
   }
   
   
@@ -52,9 +51,9 @@
   }
   
   .container-sub-hero-title {
-    display: flex;
+    @extend %flex2;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
   }
   
   .sub-hero-article {

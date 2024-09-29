@@ -30,6 +30,27 @@ figure {
   padding: 0;
 }
 
+.list-item:nth-child(4)::before, .list-item:nth-child(3)::before, .list-item:nth-child(2)::before, .list-item:nth-child(1)::before, .info-list, #header-flex, .navigation .navigation-list {
+  display: flex;
+  justify-content: center;
+}
+
+.container-team, .work .work-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item:nth-child(4)::before, .list-item:nth-child(3)::before, .list-item:nth-child(2)::before, .list-item:nth-child(1)::before {
+  background-color: #F5F4FA;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.team-name, .work-for {
+  font-size: 16px;
+  letter-spacing: 0.48px;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -40,11 +61,6 @@ figure {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-.navigation .navigation-list {
-  display: flex;
-  justify-content: center;
-}
-
 .title {
   text-align: center;
   font-size: 36px;
@@ -98,8 +114,6 @@ figure {
 }
 
 #header-flex {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -366,10 +380,6 @@ figure {
   padding: 94px 0;
 }
 
-.info-list {
-  display: flex;
-  justify-content: space-between;
-}
 .info-list .list-item {
   width: 270px;
 }
@@ -386,46 +396,24 @@ figure {
 
 .list-item:nth-child(1)::before {
   content: url("../img/antenna(1).png");
-  display: flex;
-  justify-content: center;
-  background-color: #F5F4FA;
-  padding: 25px;
-  margin-bottom: 30px;
 }
 
 .list-item:nth-child(2)::before {
   content: url("../img/clock(1).png");
-  display: flex;
-  justify-content: center;
-  background-color: #F5F4FA;
-  padding: 25px;
-  margin-bottom: 30px;
 }
 
 .list-item:nth-child(3)::before {
   content: url("../img/diagram(1).png");
-  display: flex;
-  justify-content: center;
-  background-color: #F5F4FA;
-  padding: 25px;
-  margin-bottom: 30px;
 }
 
 .list-item:nth-child(4)::before {
   content: url("../img/astronaut(1).png");
-  display: flex;
-  justify-content: center;
-  background-color: #F5F4FA;
-  padding: 25px;
-  margin-bottom: 30px;
 }
 
 .work {
   padding-bottom: 80px;
 }
 .work .work-list {
-  display: flex;
-  justify-content: space-between;
   font-size: 16px;
   font-weight: 500;
 }
@@ -462,16 +450,12 @@ figure {
 }
 
 .work-for {
-  font-size: 16px;
   font-weight: 400;
-  letter-spacing: 0.48px;
   color: #757575;
 }
 
 .team-name {
-  font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0.48px;
   color: #212121;
 }
 
@@ -487,10 +471,6 @@ figure {
   height: 260px;
 }
 
-.container-team {
-  display: flex;
-  justify-content: space-between;
-}
 .container-team figure {
   margin: 0;
 }

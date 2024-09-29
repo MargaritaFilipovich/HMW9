@@ -8,8 +8,7 @@
     padding: 25px 0;
 
     #header-flex {
-      display: flex;
-      justify-content: space-between;
+      @extend %flex;
       align-items: center;
     
     }
@@ -58,8 +57,7 @@
   }
 
   .navigation-list {
-    display: flex;
-    justify-content: center;
+    @extend %flex;
   }
   
   .navigation-item:not(:last-child) {
