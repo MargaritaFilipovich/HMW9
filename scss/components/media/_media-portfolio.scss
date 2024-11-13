@@ -30,4 +30,12 @@
       width: 100%;
       padding: 0 15px;
     }
+
+    .subscribe-btn, .sub, .navigation-list, .header #header-flex {
+     flex-wrap: wrap;
+  }
+
+  .navigation-item:nth-child(3) {
+    margin-right: 100px!important;
+}
   }

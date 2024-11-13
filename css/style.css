@@ -88,6 +88,8 @@ figure {
   }
   .team-list {
     width: 230px !important;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .photo {
     width: 230px !important;
@@ -109,9 +111,6 @@ figure {
   }
   .h3-subscribe, .form-subscribe {
     margin-left: 33px !important;
-  }
-  .footer-icons {
-    margin-left: 30px !important;
   }
 }
 /* Medium: 768px - 991px */
@@ -159,22 +158,22 @@ figure {
     height: 50px !important;
     margin-top: 20px;
   }
-  .footer-icons {
-    margin-left: 250px !important;
-  }
   .container-team, .work .work-list {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
   }
   .busines-button {
-    margin-left: 300px !important;
+    margin: 0 auto !important;
   }
 }
 /* Small: 576px - 767px */
 @media (max-width: 767px) {
   .container {
     width: 540px;
+  }
+  .busines-button {
+    margin-left: 200px !important;
   }
 }
 /* Extra small: 0px (320px) - 575px */

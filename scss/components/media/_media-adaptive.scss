@@ -39,6 +39,7 @@
 
 .team-list{
   width: 230px!important;
+  object-fit: cover;
 }
 
 .photo{
@@ -67,9 +68,7 @@
   margin-left: 33px!important;
 }
 
-.footer-icons {
-  margin-left: 30px!important;
-}
+
 }
 
 /* Medium: 768px - 991px */
@@ -133,11 +132,6 @@ height: 224px;
 
   
 
-
-  .footer-icons {
-    margin-left: 250px !important;
-}
-
 .container-team, .work .work-list {
   flex-wrap: wrap;
   justify-content: center;
@@ -145,7 +139,7 @@ height: 224px;
 }
 
 .busines-button{
-  margin-left: 300px!important;
+  margin: 0 auto!important;
 
 }
 }
@@ -155,6 +149,9 @@ height: 224px;
   .container {
     width: 540px;
   }
+  .busines-button {
+    margin-left: 200px!important;
+  }
 }
 
 /* Extra small: 0px (320px) - 575px */
@@ -163,4 +160,6 @@ height: 224px;
     width: 100%;
     padding: 0 15px;
   }
+
+  
 }
